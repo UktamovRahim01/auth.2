@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body {
+  background-color: antiquewhite;
+  font-size: 18px;
+  font-family: "Montserat";
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Авторизация */
+.auth {
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  background: rgb(23, 22, 22);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.auth__login {
+  background: rgb(40, 35, 35);
+  width: 600px;
+}
+.auth__login__title {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.auth__login .form {
+  width: 100%;
+}
+.auth__login .form__input {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  width: 86%;
+  height: 56px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 10px 25px;
+  padding-left: 20px;
+}
+.auth__login .form__relative {
+  position: relative;
+}
+.auth__login .form__relative__forgot-password {
+  position: absolute;
+  top: 28px;
+  right: 65px;
+  color: gray;
+  text-decoration: none;
+}
+.auth__login .form__button {
+  width: 90%;
+  height: 56px;
+  background: rgb(67, 54, 54);
+  margin: 25px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 10px;
+  color: gray;
+}
+.auth__login .social-login__title {
+  color: gray;
+  font-size: 22px;
+  text-align: center;
+}
+.auth__login .social-login__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 40px;
+  padding: 30px 0;
+}
+.auth__login .social-login__icons a {
+  width: 40px;
+  height: 40px;
+}
+.auth__login .social-login__icons a img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.auth__newlogin {
+  text-align: center;
+  padding: 25px 0 40px;
+  font-size: 20px;
+}
+.auth__newlogin span {
+  color: gray;
+}
+.auth__newlogin a {
+  padding-left: 8px;
+  text-decoration: none;
+}

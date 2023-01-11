@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass-scss</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="auth"> <!-- auth = блок -->
+        <div class="auth__login">
+            <h3 class="auth__login__title">Авторизация</h3> <!-- auth__title элемент блока -->
+            <form action="#" class="auth__form form">
+                <input type="text" class="form__input" placeholder="Логин">
+                <div class="form__relative">
+                    <input type="password" class="form__input" placeholder="Пароль">
+                    <a href="#" class="form__relative__forgot-password">Забыли пароль?</a>
+                </div>
+                <button class="form__button">Войти</button>
+            </form>
+            <div class="auth__login__social-login social-login">
+                <div class="social-login__title">Или войдите с помощью</div>
+                <div class="social-login__icons">
+                    <a href="#" class="social-login__icon">
+                        <img class="social-login__img" src="img/mail-logo.svg" alt="">
+                    </a>
+                    <a href="#" class="social-login__icon">
+                        <img class="social-login__img" src="img/google-logo.svg" alt="">
+                    </a>
+                    <a href="#" class="social-login__icon">
+                        <img class="social-login__img" src="img/facebook-logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="auth__newlogin">
+            <span> Не зарегистрированы?</span>
+            <a href="#">Регистрация</a>
+        </div>
+    </div>
+</body>
+
+</html>
